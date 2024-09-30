@@ -1,9 +1,9 @@
 
 export default function Cards() {
     return (
-        <div className="w-full py-20">
-            <div className="flex justify-center">
-                <h1 className="text-4xl font-bold flex justify-center items-center p-12">
+        <div className="max-w-screen-2xl py-20 lg:py-40 justify-center mx-auto">
+            <div className="flex justify-center items-center">
+                <h1 className="text-4xl font-bold p-12">
                     Our Itineraries
                 </h1>
             </div>

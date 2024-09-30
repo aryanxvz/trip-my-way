@@ -3,7 +3,7 @@ import React from "react"
 
 export function Features() {
     return (
-        <div className="w-full py-20">
+        <div className="max-w-screen-2xl mx-auto py-20 lg:py-40">
             <h1 className="text-4xl font-bold flex justify-center items-center p-12">
                 why choose us?
             </h1>

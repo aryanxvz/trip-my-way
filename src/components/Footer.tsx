@@ -2,7 +2,7 @@ import { FacebookIcon, InstagramIcon, TwitterIcon } from "./Icons"
 
 export const Footer = () => {
     return (
-        <footer className="bg-black shadow-[0_-4px_15px_rgba(0,0,0,0.2)]">
+        <footer className="bg-black shadow-[0_-4px_15px_rgba(0,0,0,0.2)] mt-20">
             <div className="container px-6 pt-12 pb-8 mx-auto">
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2 sm:gap-y-10">
 
@@ -46,7 +46,7 @@ export const Footer = () => {
                 <div className="flex items-center justify-center">
                     <div>
                         <div className="w-full mx-auto max-w-screen-xl pt-2 md:flex md:items-center md:justify-between">
-                            <span className="text-sm sm:text-center text-gray-400">© 2024 <a href="" className="hover:underline">TripMyWay</a>. All Rights Reserved.
+                            <span className="text-sm sm:text-center text-gray-400">©2024 <a href="" className="hover:underline">TripMyWay</a>. All Rights Reserved.
                             </span>
                         </div>
                     </div>
