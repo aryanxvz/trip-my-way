@@ -1,8 +1,9 @@
+import HeroPage from "@/components/Hero";
 
 export default function Home() {
     return (
-        <div className="text-4xl">
-            Hello world
-        </div>
+        <main>
+            <HeroPage />
+        </main>
     );
 }
