@@ -4,7 +4,7 @@ export default function Header() {
         <header className="absoulute p-4">
             <div className="flex justify-between">
                 <div className="text-4xl font-bold">
-                    TRIP-MY-WAY
+                    TripMyWay
                 </div>
                 <div className="flex gap-2">
                     <div>ig</div>

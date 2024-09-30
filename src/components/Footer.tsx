@@ -46,7 +46,7 @@ export const Footer = () => {
                 <div className="flex items-center justify-center">
                     <div>
                         <div className="w-full mx-auto max-w-screen-xl pt-2 md:flex md:items-center md:justify-between">
-                            <span className="text-sm sm:text-center text-gray-400">© 2024 <a href="" className="hover:underline">TRIP-MY-WAY</a>. All Rights Reserved.
+                            <span className="text-sm sm:text-center text-gray-400">© 2024 <a href="" className="hover:underline">TripMyWay</a>. All Rights Reserved.
                             </span>
                         </div>
                     </div>

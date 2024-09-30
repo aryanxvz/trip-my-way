@@ -23,11 +23,7 @@ export default function HeroPage() {
                 </div>
             </div>
 
-            <div className="flex justify-center">
-                <div className="text-5xl font-bold">Our Itineraries</div>
-            </div>
             <Cards />
-
             <Features />
         </div>
     );
