@@ -3,8 +3,8 @@ import React from "react"
 
 export function Features() {
     return (
-        <div className="max-w-screen-2xl mx-auto py-20 lg:py-40">
-            <h1 className="text-4xl font-bold flex justify-center items-center p-12">
+        <div className="mx-auto py-20 lg:py-40">
+            <h1 className="text-4xl font-bold flex justify-center items-center pb-12">
                 why choose us?
             </h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10 md:gap-6 max-w-7xl mx-auto">

@@ -1,6 +1,6 @@
 
 export const Post = () => (
-    <div className="max-w-screen-2xl mx-auto py-20 lg:py-40 shadow-md rounded-lg bg-white">
+    <div className="w-screen mx-auto py-20 lg:py-40 shadow-[0_-4px_6px_rgba(0,0,0,0.1),0_4px_6px_rgba(0,0,0,0.1)] rounded-lg bg-white">
         <div className="container mx-auto">
         <div className="flex flex-col lg:flex-row gap-10 lg:items-center">
             <div className="flex gap-4 flex-col flex-1">
@@ -13,8 +13,8 @@ export const Post = () => (
                 </p>
             </div>
             </div>
-            <div className="bg-muted rounded-md w-full aspect-video h-full flex-1">
-                <img className="rounded-md" src="/hero2.png" alt="" />
+            <div className="bg-muted rounded-md w-full aspect-video shadow-md h-full flex-1">
+                <img className="rounded-md" src="/hero2.png" alt=""/>
             </div>
         </div>
         </div>

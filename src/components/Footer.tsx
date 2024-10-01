@@ -2,7 +2,7 @@ import { FacebookIcon, InstagramIcon, TwitterIcon } from "./Icons"
 
 export const Footer = () => {
     return (
-        <footer className="bg-black shadow-[0_-4px_15px_rgba(0,0,0,0.2)] mt-20">
+        <footer className="bg-black shadow-[0_-4px_15px_rgba(0,0,0,0.2)]">
             <div className="container px-6 pt-12 pb-8 mx-auto">
                 <div className="grid grid-cols-1 gap-6 md:grid-cols-2 sm:gap-y-10">
 

@@ -29,10 +29,10 @@ export const Testimonials = () => {
     }, [api, current]);
 
     return (
-        <div className="max-w-screen-2xl mx-auto py-20 lg:py-32 bg-white rounded-lg shadow-md">
-        <div className="container mx-auto">
+        <div className="w-screen mx-auto py-20 lg:pt-32 bg-white rounded-lg shadow-[0_-4px_6px_rgba(0,0,0,0.1),0_4px_6px_rgba(0,0,0,0.1)]  pb-40">
+        <div className="container max-w-screen-2xl mx-auto">
             <div className="flex flex-col gap-10">
-            <h2 className="text-2xl md:text-5xl font-bold tracking-tighter lg:max-w-xl font-regular text-left ml-20">
+            <h2 className="text-2xl md:text-5xl font-bold tracking-tighter lg:max-w-xl font-regular text-left ml-10">
                 Happy Travelers
             </h2>
             <Carousel setApi={setApi} className="w-full">
