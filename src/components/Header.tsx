@@ -24,18 +24,18 @@ export default function Header() {
 
     return (
         <header
-            className={`fixed z-50 w-full px-16 transition-colors duration-300 ${
-                scrolled ? "bg-sky-800 bg-opacity-80 shadow-lg backdrop-blur-[0.5rem]" : "bg-transparent"
+            className={`fixed z-50 w-full px-4 sm:px-16 transition-colors duration-300 ${
+                scrolled ? "bg-sky-800 bg-opacity-90 shadow-lg backdrop-blur-[0.5rem]" : "bg-transparent"
             }`}>
 
-            <div className="flex justify-between items-center p-2">
+            <div className="flex justify-between items-center p-2 sm:p-2">
                 {/* Logo or Header Title */}
-                <div className="text-2xl text-white font-bold">
-                    TripMyWay
-                </div>
+                <h1 className="text-2xl text-white font-bold">
+                    tripmyway
+                </h1>
 
                 {/* Social Icons */}
-                <div className="flex gap-4">
+                <div className="flex gap-1 sm:gap-4">
                     <FacebookIcon />
                     <InstagramIcon />
                     <TwitterIcon />
